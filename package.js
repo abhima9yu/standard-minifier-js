@@ -9,7 +9,7 @@ Package.registerBuildPlugin({
   name: "minifyStdJS",
   use: [
     'abernix:minifier-js@2.1.0',
-    'babel-compiler@6.19.2',
+    'babel-compiler@7.0.0',
     'ecmascript@0.8.0'
   ],
   sources: [
